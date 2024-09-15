@@ -25,6 +25,7 @@ img {
     width: 250px;
     display: block;
     margin: 0px auto;
+    border: 10px dashed #FFFFFF;
 }
 
 div {
@@ -39,6 +40,10 @@ div {
     line-height: 37px;
     position: relative;
     padding: 15px;
+}
+
+.red, .blue, .yellow, .green {
+    border-color: #FFFFFF;
 }
 
 .red {
