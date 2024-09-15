@@ -34,6 +34,7 @@ div {
     border: 3px solid #FFFFFF;
 }
 
+
 .introduction {
     border-radius: 15px;
     margin-top: 15px;
@@ -42,24 +43,20 @@ div {
     padding: 15px;
 }
 
-.red, .blue, .yellow, .green {
-    border-color: #FFFFFF;
-}
-
 .red {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
 }
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
+    border-right-width: 5px;
+    border-top-width: 2px;
     color:#c4c4c4;
 }
 
@@ -72,16 +69,16 @@ div {
     color: #707070;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
 }
 
 .green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
+    border-right-width: 5px;
+    border-top-width: 2px;
 }
 
 footer {
